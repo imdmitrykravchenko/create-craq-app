@@ -1,0 +1,25 @@
+{
+  "name": "create-craq-app",
+  "version": "0.1.0",
+  "description": "craq app scaffolding",
+  "scripts": {
+    "build": "tsc ./index.ts"
+  },
+  "bin": {
+    "create-craq-app": "./index.js"
+  },
+  "keywords": [],
+  "author": "Dmitry Kravchenko",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/inquirer": "^8.2.5",
+    "@types/node": "^20.8.6",
+    "prettier": "^2.8.8",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2"
+  },
+  "dependencies": {
+    "execa": "^5.1.1",
+    "inquirer": "^8.0.1"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "src": {
+    "client": "./src/client/index.ts",
+    "server": "./src/server/index.ts"
+  },
+  "output": {
+    "path": "./build",
+    "assets": "assets"
+  },
+  "serve": {
+    "hostname": "localhost",
+    "port": 9000
+  },
+  "silent": false,
+  "env": {
+    "development": {},
+    "production": {}
+  }
+}
